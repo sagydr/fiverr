@@ -109,7 +109,7 @@ class EmailParser(object):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print "usage: python csv_email_parser.py <input-file>"
+        print "usage:   python csv_email_parser.py <input-file>"
     else:
         input_file = sys.argv[1]
         test = EmailParser(input_file)
